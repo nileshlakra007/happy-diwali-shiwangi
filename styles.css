@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+button {
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff6700;
+}
+
+.puzzle-box {
+    background: #fff3e0;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.puzzle-box p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #d6a16a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+/* Minimalistic Final Message */
+.minimal-message {
+    background: #fafafa;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+}
+
+.minimal-message h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    color: #6a1b1e;
+    margin-bottom: 20px;
+}
+
+.message-content {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+}

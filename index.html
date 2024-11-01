@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Puzzle Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Homepage -->
+    <div id="homepage" class="page active">
+        <h1>Welcome Back, Shiwangi!</h1>
+        <p>It's been a while since our last puzzle adventure. Ready to embark on a new journey?</p>
+        <button onclick="startPuzzle()">Start the Quest</button>
+    </div>
+
+    <!-- Puzzle 1 -->
+    <div id="puzzle1" class="page">
+        <h2>Puzzle 1</h2>
+        <div class="puzzle-box">
+            <p>I’m always running, yet I never move. I can be lost, wasted, or kept, but never owned. What am I?</p>
+            <input type="text" id="answer1" placeholder="Enter your answer here">
+            <button onclick="checkAnswer1()">Submit</button>
+        </div>
+    </div>
+
+    <!-- Puzzle 2 -->
+    <div id="puzzle2" class="page">
+        <h2>Puzzle 2</h2>
+        <div class="puzzle-box">
+            <p>I’m often used with love, though I’m not always spoken aloud. I’m known only to those closest, a name cherished and proud. What am I?</p>
+            <input type="text" id="answer2" placeholder="Enter your answer here">
+            <button onclick="checkAnswer2()">Submit</button>
+        </div>
+    </div>
+
+    <!-- Puzzle 3 -->
+    <div id="puzzle3" class="page">
+        <h2>Puzzle 3</h2>
+        <div class="puzzle-box">
+            <p>I’m often felt but never seen. I can race, rest, or rise with emotion. Without me, life would not beat. What am I?</p>
+            <input type="text" id="answer3" placeholder="Enter your answer here">
+            <button onclick="checkAnswer3()">Submit</button>
+        </div>
+    </div>
+
+    <!-- Minimalistic Final Message -->
+    <div id="final-message" class="page">
+        <div class="minimal-message">
+            <h2>For You, Shiwangi</h2>
+            <p class="message-content">
+                Time is one of the most precious gifts we have, found in every laugh, every quiet moment, and all the memories we create. This gift is a small reminder to embrace these moments as they come.
+                <br><br>
+                Like in *The Age of Adaline*, where time stands still yet life moves forward, maybe it’s okay to let go of worries about what’s ahead and focus on the beauty here and now. Each moment, big or small, has something special to offer.
+                <br><br>
+                So here’s to every tick, every memory, and all the adventures still waiting for us. Keep smiling, and let’s make each moment count.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
